@@ -1,11 +1,3 @@
-    //
-//  UITweeksClass.m
-//  Behave
-//
-//  Created by Syed Ayaz Uddin Alavi on 9/23/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
-
 #import "UITweeksClass.h"
 
 @implementation UITweeksClass
