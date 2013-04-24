@@ -1,13 +1,3 @@
-//
-//  DogsListingViewController.h
-//  DoggyAlert
-//
-//  Created by Ayaz Alavi on 5/2/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
-
-
-
 @interface DogsListingViewController : UIViewController
 
 @property (nonatomic, retain) IBOutlet UIButton *leftArrow;
