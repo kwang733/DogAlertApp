@@ -1,10 +1,3 @@
-//
-//  DogsListingViewController.m
-//  DoggyAlert
-//
-//  Created by Ayaz Alavi on 5/2/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
 
 #import "DogsListingViewController.h"
 #import "CreateDogViewController.h"
