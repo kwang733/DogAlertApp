@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="872" systemVersion="10J4139" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Activities" representedClassName="Activities" syncable="YES">
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="dog" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Dogs" inverseName="activities" inverseEntity="Dogs" syncable="YES"/>
+        <relationship name="times" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ActivityTimeLog" inverseName="activity" inverseEntity="ActivityTimeLog" syncable="YES"/>
+    </entity>
+    <entity name="ActivityTimeLog" representedClassName="ActivityTimeLog" syncable="YES">
+        <attribute name="is_acheived" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="activity" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Activities" inverseName="times" inverseEntity="Activities" syncable="YES"/>
+    </entity>
+    <entity name="Dogs" representedClassName="Dogs" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="picture" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="activities" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Activities" inverseName="dog" inverseEntity="Activities" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Activities" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="Dogs" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="ActivityTimeLog" positionX="160" positionY="192" width="128" height="90"/>
+    </elements>
+</model>

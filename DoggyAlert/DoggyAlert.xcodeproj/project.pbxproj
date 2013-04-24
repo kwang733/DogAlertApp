@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F5BE6C11551BFAA005110B2 /* CreateActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5BE6BF1551BFAA005110B2 /* CreateActivityViewController.m */; };
+		8F5BE6C21551BFAA005110B2 /* CreateActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F5BE6C01551BFAA005110B2 /* CreateActivityViewController.xib */; };
+		8F5D6AEA1551BAF000CFE385 /* ActivitiesListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5D6AE81551BAF000CFE385 /* ActivitiesListingViewController.m */; };
+		8F5D6AEB1551BAF000CFE385 /* ActivitiesListingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F5D6AE91551BAF000CFE385 /* ActivitiesListingViewController.xib */; };
+		8F9502501551A24B0092E1A2 /* UITweeksClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F95024F1551A24B0092E1A2 /* UITweeksClass.m */; };
+		8F95025B1551ADFE0092E1A2 /* arrow-left.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F9502591551ADFE0092E1A2 /* arrow-left.jpg */; };
+		8F95025C1551ADFE0092E1A2 /* arrow-right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F95025A1551ADFE0092E1A2 /* arrow-right.jpg */; };
+		8F95025F1551AE9C0092E1A2 /* tick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F95025D1551AE9C0092E1A2 /* tick.jpg */; };
+		8F9502601551AE9C0092E1A2 /* wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F95025E1551AE9C0092E1A2 /* wrong.png */; };
+		8F9C6B441551911500ACF15F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9C6B431551911500ACF15F /* UIKit.framework */; };
+		8F9C6B461551911500ACF15F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9C6B451551911500ACF15F /* Foundation.framework */; };
+		8F9C6B481551911500ACF15F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9C6B471551911500ACF15F /* CoreGraphics.framework */; };
+		8F9C6B4A1551911500ACF15F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9C6B491551911500ACF15F /* CoreData.framework */; };
+		8F9C6B501551911500ACF15F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C6B4E1551911500ACF15F /* InfoPlist.strings */; };
+		8F9C6B521551911500ACF15F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C6B511551911500ACF15F /* main.m */; };
+		8F9C6B561551911500ACF15F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C6B551551911500ACF15F /* AppDelegate.m */; };
+		8F9C6B591551911500ACF15F /* DoggyAlert.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C6B571551911500ACF15F /* DoggyAlert.xcdatamodeld */; };
+		8F9C6B6215519C2E00ACF15F /* DogsListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C6B6015519C2E00ACF15F /* DogsListingViewController.m */; };
+		8F9C6B6315519C2E00ACF15F /* DogsListingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C6B6115519C2E00ACF15F /* DogsListingViewController.xib */; };
+		8F9C6B6815519F2E00ACF15F /* CreateDogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C6B6615519F2E00ACF15F /* CreateDogViewController.m */; };
+		8F9C6B6915519F2E00ACF15F /* CreateDogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C6B6715519F2E00ACF15F /* CreateDogViewController.xib */; };
+		8F9C6B6F1551A14C00ACF15F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9C6B6E1551A14C00ACF15F /* MobileCoreServices.framework */; };
+		8FA3BCE21552FDAF00DA171C /* Dogs.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3BCE11552FDAF00DA171C /* Dogs.m */; };
+		8FA3BCE51552FDB000DA171C /* ActivityTimeLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3BCE41552FDB000DA171C /* ActivityTimeLog.m */; };
+		8FA3BCE81552FDB000DA171C /* Activities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3BCE71552FDB000DA171C /* Activities.m */; };
+		8FA3BCEC1552FFD800DA171C /* CalenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3BCEA1552FFD800DA171C /* CalenderViewController.m */; };
+		8FA3BCED1552FFD800DA171C /* CalenderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FA3BCEB1552FFD800DA171C /* CalenderViewController.xib */; };
+		8FA3BCEF1553052B00DA171C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA3BCEE1553052B00DA171C /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F5BE6BE1551BFAA005110B2 /* CreateActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateActivityViewController.h; sourceTree = "<group>"; };
+		8F5BE6BF1551BFAA005110B2 /* CreateActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateActivityViewController.m; sourceTree = "<group>"; };
+		8F5BE6C01551BFAA005110B2 /* CreateActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateActivityViewController.xib; sourceTree = "<group>"; };
+		8F5D6AE71551BAF000CFE385 /* ActivitiesListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivitiesListingViewController.h; sourceTree = "<group>"; };
+		8F5D6AE81551BAF000CFE385 /* ActivitiesListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivitiesListingViewController.m; sourceTree = "<group>"; };
+		8F5D6AE91551BAF000CFE385 /* ActivitiesListingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivitiesListingViewController.xib; sourceTree = "<group>"; };
+		8F95024E1551A24B0092E1A2 /* UITweeksClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITweeksClass.h; sourceTree = "<group>"; };
+		8F95024F1551A24B0092E1A2 /* UITweeksClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITweeksClass.m; sourceTree = "<group>"; };
+		8F9502591551ADFE0092E1A2 /* arrow-left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arrow-left.jpg"; sourceTree = "<group>"; };
+		8F95025A1551ADFE0092E1A2 /* arrow-right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arrow-right.jpg"; sourceTree = "<group>"; };
+		8F95025D1551AE9C0092E1A2 /* tick.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tick.jpg; sourceTree = "<group>"; };
+		8F95025E1551AE9C0092E1A2 /* wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrong.png; sourceTree = "<group>"; };
+		8F9C6B3F1551911500ACF15F /* DoggyAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoggyAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9C6B431551911500ACF15F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F9C6B451551911500ACF15F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F9C6B471551911500ACF15F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F9C6B491551911500ACF15F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8F9C6B4D1551911500ACF15F /* DoggyAlert-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoggyAlert-Info.plist"; sourceTree = "<group>"; };
+		8F9C6B4F1551911500ACF15F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F9C6B511551911500ACF15F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F9C6B531551911500ACF15F /* DoggyAlert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoggyAlert-Prefix.pch"; sourceTree = "<group>"; };
+		8F9C6B541551911500ACF15F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F9C6B551551911500ACF15F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F9C6B581551911500ACF15F /* DoggyAlert.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoggyAlert.xcdatamodel; sourceTree = "<group>"; };
+		8F9C6B5F15519C2E00ACF15F /* DogsListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogsListingViewController.h; sourceTree = "<group>"; };
+		8F9C6B6015519C2E00ACF15F /* DogsListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogsListingViewController.m; sourceTree = "<group>"; };
+		8F9C6B6115519C2E00ACF15F /* DogsListingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DogsListingViewController.xib; sourceTree = "<group>"; };
+		8F9C6B6515519F2E00ACF15F /* CreateDogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateDogViewController.h; sourceTree = "<group>"; };
+		8F9C6B6615519F2E00ACF15F /* CreateDogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateDogViewController.m; sourceTree = "<group>"; };
+		8F9C6B6715519F2E00ACF15F /* CreateDogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateDogViewController.xib; sourceTree = "<group>"; };
+		8F9C6B6E1551A14C00ACF15F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8FA3BCE01552FDAF00DA171C /* Dogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dogs.h; sourceTree = "<group>"; };
+		8FA3BCE11552FDAF00DA171C /* Dogs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dogs.m; sourceTree = "<group>"; };
+		8FA3BCE31552FDB000DA171C /* ActivityTimeLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityTimeLog.h; sourceTree = "<group>"; };
+		8FA3BCE41552FDB000DA171C /* ActivityTimeLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityTimeLog.m; sourceTree = "<group>"; };
+		8FA3BCE61552FDB000DA171C /* Activities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Activities.h; sourceTree = "<group>"; };
+		8FA3BCE71552FDB000DA171C /* Activities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Activities.m; sourceTree = "<group>"; };
+		8FA3BCE91552FFD700DA171C /* CalenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderViewController.h; sourceTree = "<group>"; };
+		8FA3BCEA1552FFD800DA171C /* CalenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderViewController.m; sourceTree = "<group>"; };
+		8FA3BCEB1552FFD800DA171C /* CalenderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalenderViewController.xib; sourceTree = "<group>"; };
+		8FA3BCEE1553052B00DA171C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F9C6B3C1551911500ACF15F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA3BCEF1553052B00DA171C /* QuartzCore.framework in Frameworks */,
+				8F9C6B6F1551A14C00ACF15F /* MobileCoreServices.framework in Frameworks */,
+				8F9C6B441551911500ACF15F /* UIKit.framework in Frameworks */,
+				8F9C6B461551911500ACF15F /* Foundation.framework in Frameworks */,
+				8F9C6B481551911500ACF15F /* CoreGraphics.framework in Frameworks */,
+				8F9C6B4A1551911500ACF15F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F5D6AE11551AF4400CFE385 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8F9502591551ADFE0092E1A2 /* arrow-left.jpg */,
+				8F95025A1551ADFE0092E1A2 /* arrow-right.jpg */,
+				8F95025D1551AE9C0092E1A2 /* tick.jpg */,
+				8F95025E1551AE9C0092E1A2 /* wrong.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		8F9502521551A41F0092E1A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8FA3BCE61552FDB000DA171C /* Activities.h */,
+				8FA3BCE71552FDB000DA171C /* Activities.m */,
+				8FA3BCE31552FDB000DA171C /* ActivityTimeLog.h */,
+				8FA3BCE41552FDB000DA171C /* ActivityTimeLog.m */,
+				8FA3BCE01552FDAF00DA171C /* Dogs.h */,
+				8FA3BCE11552FDAF00DA171C /* Dogs.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8F9C6B341551911500ACF15F = {
+			isa = PBXGroup;
+			children = (
+				8F9C6B4B1551911500ACF15F /* DoggyAlert */,
+				8F9C6B421551911500ACF15F /* Frameworks */,
+				8F9C6B401551911500ACF15F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F9C6B401551911500ACF15F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F9C6B3F1551911500ACF15F /* DoggyAlert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F9C6B421551911500ACF15F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FA3BCEE1553052B00DA171C /* QuartzCore.framework */,
+				8F9C6B6E1551A14C00ACF15F /* MobileCoreServices.framework */,
+				8F9C6B431551911500ACF15F /* UIKit.framework */,
+				8F9C6B451551911500ACF15F /* Foundation.framework */,
+				8F9C6B471551911500ACF15F /* CoreGraphics.framework */,
+				8F9C6B491551911500ACF15F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F9C6B4B1551911500ACF15F /* DoggyAlert */ = {
+			isa = PBXGroup;
+			children = (
+				8F9C6B541551911500ACF15F /* AppDelegate.h */,
+				8F9C6B551551911500ACF15F /* AppDelegate.m */,
+				8F9C6B571551911500ACF15F /* DoggyAlert.xcdatamodeld */,
+				8F95024E1551A24B0092E1A2 /* UITweeksClass.h */,
+				8F95024F1551A24B0092E1A2 /* UITweeksClass.m */,
+				8F9502521551A41F0092E1A2 /* Models */,
+				8F9C6B6415519DA100ACF15F /* View Controllers */,
+				8F5D6AE11551AF4400CFE385 /* Images */,
+				8F9C6B4C1551911500ACF15F /* Supporting Files */,
+			);
+			path = DoggyAlert;
+			sourceTree = "<group>";
+		};
+		8F9C6B4C1551911500ACF15F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F9C6B4D1551911500ACF15F /* DoggyAlert-Info.plist */,
+				8F9C6B4E1551911500ACF15F /* InfoPlist.strings */,
+				8F9C6B511551911500ACF15F /* main.m */,
+				8F9C6B531551911500ACF15F /* DoggyAlert-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F9C6B6415519DA100ACF15F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F9C6B5F15519C2E00ACF15F /* DogsListingViewController.h */,
+				8F9C6B6015519C2E00ACF15F /* DogsListingViewController.m */,
+				8F9C6B6115519C2E00ACF15F /* DogsListingViewController.xib */,
+				8F9C6B6515519F2E00ACF15F /* CreateDogViewController.h */,
+				8F9C6B6615519F2E00ACF15F /* CreateDogViewController.m */,
+				8F9C6B6715519F2E00ACF15F /* CreateDogViewController.xib */,
+				8F5D6AE71551BAF000CFE385 /* ActivitiesListingViewController.h */,
+				8F5D6AE81551BAF000CFE385 /* ActivitiesListingViewController.m */,
+				8F5D6AE91551BAF000CFE385 /* ActivitiesListingViewController.xib */,
+				8F5BE6BE1551BFAA005110B2 /* CreateActivityViewController.h */,
+				8F5BE6BF1551BFAA005110B2 /* CreateActivityViewController.m */,
+				8F5BE6C01551BFAA005110B2 /* CreateActivityViewController.xib */,
+				8FA3BCE91552FFD700DA171C /* CalenderViewController.h */,
+				8FA3BCEA1552FFD800DA171C /* CalenderViewController.m */,
+				8FA3BCEB1552FFD800DA171C /* CalenderViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F9C6B3E1551911500ACF15F /* DoggyAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F9C6B5C1551911500ACF15F /* Build configuration list for PBXNativeTarget "DoggyAlert" */;
+			buildPhases = (
+				8F9C6B3B1551911500ACF15F /* Sources */,
+				8F9C6B3C1551911500ACF15F /* Frameworks */,
+				8F9C6B3D1551911500ACF15F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoggyAlert;
+			productName = DoggyAlert;
+			productReference = 8F9C6B3F1551911500ACF15F /* DoggyAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F9C6B361551911500ACF15F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8F9C6B391551911500ACF15F /* Build configuration list for PBXProject "DoggyAlert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F9C6B341551911500ACF15F;
+			productRefGroup = 8F9C6B401551911500ACF15F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F9C6B3E1551911500ACF15F /* DoggyAlert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F9C6B3D1551911500ACF15F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9C6B501551911500ACF15F /* InfoPlist.strings in Resources */,
+				8F9C6B6315519C2E00ACF15F /* DogsListingViewController.xib in Resources */,
+				8F9C6B6915519F2E00ACF15F /* CreateDogViewController.xib in Resources */,
+				8F95025B1551ADFE0092E1A2 /* arrow-left.jpg in Resources */,
+				8F95025C1551ADFE0092E1A2 /* arrow-right.jpg in Resources */,
+				8F95025F1551AE9C0092E1A2 /* tick.jpg in Resources */,
+				8F9502601551AE9C0092E1A2 /* wrong.png in Resources */,
+				8F5D6AEB1551BAF000CFE385 /* ActivitiesListingViewController.xib in Resources */,
+				8F5BE6C21551BFAA005110B2 /* CreateActivityViewController.xib in Resources */,
+				8FA3BCED1552FFD800DA171C /* CalenderViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F9C6B3B1551911500ACF15F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9C6B521551911500ACF15F /* main.m in Sources */,
+				8F9C6B561551911500ACF15F /* AppDelegate.m in Sources */,
+				8F9C6B591551911500ACF15F /* DoggyAlert.xcdatamodeld in Sources */,
+				8F9C6B6215519C2E00ACF15F /* DogsListingViewController.m in Sources */,
+				8F9C6B6815519F2E00ACF15F /* CreateDogViewController.m in Sources */,
+				8F9502501551A24B0092E1A2 /* UITweeksClass.m in Sources */,
+				8F5D6AEA1551BAF000CFE385 /* ActivitiesListingViewController.m in Sources */,
+				8F5BE6C11551BFAA005110B2 /* CreateActivityViewController.m in Sources */,
+				8FA3BCE21552FDAF00DA171C /* Dogs.m in Sources */,
+				8FA3BCE51552FDB000DA171C /* ActivityTimeLog.m in Sources */,
+				8FA3BCE81552FDB000DA171C /* Activities.m in Sources */,
+				8FA3BCEC1552FFD800DA171C /* CalenderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F9C6B4E1551911500ACF15F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F9C6B4F1551911500ACF15F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F9C6B5A1551911500ACF15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F9C6B5B1551911500ACF15F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F9C6B5D1551911500ACF15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoggyAlert/DoggyAlert-Prefix.pch";
+				INFOPLIST_FILE = "DoggyAlert/DoggyAlert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F9C6B5E1551911500ACF15F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoggyAlert/DoggyAlert-Prefix.pch";
+				INFOPLIST_FILE = "DoggyAlert/DoggyAlert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F9C6B391551911500ACF15F /* Build configuration list for PBXProject "DoggyAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9C6B5A1551911500ACF15F /* Debug */,
+				8F9C6B5B1551911500ACF15F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F9C6B5C1551911500ACF15F /* Build configuration list for PBXNativeTarget "DoggyAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9C6B5D1551911500ACF15F /* Debug */,
+				8F9C6B5E1551911500ACF15F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8F9C6B571551911500ACF15F /* DoggyAlert.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8F9C6B581551911500ACF15F /* DoggyAlert.xcdatamodel */,
+			);
+			currentVersion = 8F9C6B581551911500ACF15F /* DoggyAlert.xcdatamodel */;
+			path = DoggyAlert.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8F9C6B361551911500ACF15F /* Project object */;
+}
